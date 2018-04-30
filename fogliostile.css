@@ -1,0 +1,162 @@
+#contenitore
+{
+
+width: 100%;
+height: auto;
+background-color: pink;
+}
+
+
+#banner1
+{
+width: 100%;
+height: 200px;
+border: solid thin black;
+background-color: gray;
+
+}
+
+.logo{
+  text-align: center;
+
+}
+
+
+#banner2
+{
+border: solid thin black;
+
+width: 100%;
+text-align: center;
+
+
+	font:80% Arial,Helvetica,sans-serif;
+}
+	.menuNavigazione{
+
+	padding:5px 0;
+	text-align:center;
+	}
+	.menuNavigazione li{
+	display:inline;
+
+	}
+	.menuNavigazione a{
+	padding:10px 15px;
+	text-decoration:none;
+	border-right:2px solid #FFF;
+	border-left:2px solid #FFF;
+	}
+	.menuNavigazione a:link,
+	.menuNavigazione a:visited
+  {
+	background:#666;
+	color:#FFF
+	}
+
+
+#barra_sx
+{
+border: solid thin black;
+
+width: 15%;
+height: 1000px;
+float: left;
+
+	font:80% Arial,Helvetica,sans-serif;
+	}
+	.menuLaterale{
+
+	padding:15px 0;
+	text-align:right;
+	}
+	.menuLaterale li{
+  display: block;
+	text-decoration:none;
+	padding:5px 10px 5px 0;
+
+
+
+	}
+	.menuLaterale a{
+
+	text-decoration:none;
+	border-right:10px solid;
+	padding:5px 10px 5px 0;
+	color:#000;
+	}
+	.menuLaterale a:link,
+	.menuLaterale a:visited{
+	border-color:#999;
+	}
+	.menuLaterale a:hover,
+	.menuLaterale a:focus,
+	.menuLaterale a:active{
+	border-color:#444;
+	text-decoration:underline;
+	}
+
+
+#testo
+{
+
+	font:120% Arial,Helvetica,sans-serif;
+
+
+
+
+float: right;
+width: 84%;
+height: 100%;
+text-align: center;
+margin-top: 50px;
+
+}
+table  {
+    border-collapse:collapse
+
+}
+td, th
+{
+    width: 70px;
+    height: 70px;
+    border:1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+#tabella
+{
+padding-left: 100px;
+}
+#chisiamo
+{
+  width: 70%;
+  padding: 5px 150px 0;
+text-align: center;
+
+}
+
+#immagini
+
+{
+float: none;
+display: block;
+
+
+}
+img
+{
+margin: 20px;
+}
+
+#footer
+{
+border: solid thin black;
+background-color: pink;
+text-align: center;
+width: 100%;
+height: auto;
+clear: both;
+
+}
